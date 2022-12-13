@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@700&family=Rubik:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.left,
+.right {
+    width: 600px;
+    height: 782px;
+}
+.left {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+}
+.left-text{
+    width: 285px;
+    color: #fff;
+}
+.left-text h1{
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+.left_info_btn{
+    display: flex;
+    align-items: center;
+    background: #1E90FF;
+    padding: 12px 24px;
+    width: 164px;
+    gap: 12px;
+}
+.left_info_btn:hover{
+    background: rgba(30, 144, 255, 0.8);
+
+}
+.right{
+    padding: 54px;
+}
+.right_info_title{
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #222222;
+    /* margin-bottom: 24px; */
+}
+.right_info  hr {
+    margin-bottom: 24px;
+}
+.right_info_item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.right_info_item:not(:last-child){
+    margin-bottom: 10px;
+}
+.right_info_item_img{
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+}
+.right_info_item_img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.right_info_item_text h1{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #222222;
+    margin-bottom: 4px;
+}
+.right_info_item_text h2:hover{
+    cursor: pointer;
+    background: #1E90FF;
+}
+.pi{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.pi p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.pi p img{
+    width: 16px;
+    height: 16px;
+}
+.pi p span{
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+.right_info_btn{
+    width: 100%;
+    background: #1E90FF;
+    border-radius: 4px;
+    padding: 12px 0;
+    border: none;
+   font-family:'Roboto Condensed' sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 23px;
+
+}
+.right_info_btn:hover{
+    background: rgba(30, 144, 255, 0.8);
+    cursor: pointer;
+}
